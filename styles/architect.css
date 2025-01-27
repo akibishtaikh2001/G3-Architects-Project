@@ -3,28 +3,28 @@
 
 
 .work-sans-font {
-  font-family: "Work Sans", serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
+    font-family: "Work Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 }
 
 /* shared styles */
-.display_flex{
+.display_flex {
     display: flex;
 }
 
 /* dark 02 */
-.text_gray{
+.text_gray {
     color: #424242;
 }
 
 /* dark 03 */
-.text_light_gray{
+.text_light_gray {
     color: #727272;
 }
 
-.bg_light{
+.bg_light {
     background-color: rgba(255, 144, 14, 0.1);
 }
 
@@ -33,20 +33,27 @@
 
 
 /* navbar related styles */
-.navbar{
-  justify-content: space-between;
+.navbar {
+    justify-content: space-between;
+    align-items: center;
 }
 
-.nav_item{
+.brand{
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+.nav_item {
     list-style: none;
     margin-right: 30px;
 }
 
-.nav_link{
-  text-decoration: none;
+.nav_link {
+    text-decoration: none;
 }
 
-.navbar, .banner{
+.navbar,
+.banner {
     max-width: 1440px;
-    margin: 0 auto;
+
 }
