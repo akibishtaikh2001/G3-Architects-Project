@@ -1,7 +1,52 @@
 /* work sans font from google fonts */
-@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
-*{
-    font-family: "DM Serif Text", serif;
-    font-family: "Work Sans", serif;
+
+.work-sans-font {
+  font-family: "Work Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* shared styles */
+.display_flex{
+    display: flex;
+}
+
+/* dark 02 */
+.text_gray{
+    color: #424242;
+}
+
+/* dark 03 */
+.text_light_gray{
+    color: #727272;
+}
+
+.bg_light{
+    background-color: rgba(255, 144, 14, 0.1);
+}
+
+
+/* header styles */
+
+
+/* navbar related styles */
+.navbar{
+  justify-content: space-between;
+}
+
+.nav_item{
+    list-style: none;
+    margin-right: 30px;
+}
+
+.nav_link{
+  text-decoration: none;
+}
+
+.navbar, .banner{
+    max-width: 1440px;
+    margin: 0 auto;
 }
