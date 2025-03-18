@@ -220,6 +220,24 @@ main>section {
     filter: grayscale(100%);
 }
 
+/* footer design */
+
+.footer{
+    background-color: #FFF4E7;
+    margin-left: 240px;
+    margin-right: 240px;
+    margin-bottom: 216px;
+    margin-top: 130px;
+    border-radius: 8px;
+}
+.footer_peragarph{
+    padding: 39px 410px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+
+}
+
 /* responsive media query */
 @media screen and (max-width:576px) {
 
@@ -254,6 +272,14 @@ main>section {
         margin-top: 20px;
     
     }
+    .footer{
+        margin: 10px;
+        width: 100%;
+    }
+    .footer_peragarph{
+       text-align: right;
+       padding: 10px;
+    }
 }
 
 /* medium size device */
@@ -272,7 +298,7 @@ main>section {
         gap: 50px;
         justify-items: center;
     }
-    
+
     #Experience_badge {
         margin-left: 20px;
         margin-top: 20px;
