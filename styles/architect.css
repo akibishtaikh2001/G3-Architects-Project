@@ -37,6 +37,7 @@
     color: #FFFFFF;
     padding: 20px 25px;
     font-size: 1.25rem;
+    font-size: clamp(1rem, 2vw, 2rem); 
     font-weight: 600;
     border-radius: 8px;
     border: none;
@@ -98,6 +99,7 @@ main>section {
 .banner_title {
     font-weight: 700;
     font-size: 4rem;
+    font-size: clamp(1rem, 2vw, 4rem); 
 }
 
 .banner_image {
@@ -224,16 +226,17 @@ main>section {
 
 .footer{
     background-color: #FFF4E7;
-    margin-left: 240px;
-    margin-right: 240px;
-    margin-bottom: 216px;
-    margin-top: 130px;
+    background-color: rgb(255, 244, 231);
+    /* margin: 130px 240px 216px; */
     border-radius: 8px;
+    max-width: 80%;
+    margin: 0 auto;
+    
 }
 .footer_peragarph{
-    padding: 39px 410px;
+  
     text-align: center;
-    font-size: 18px;
+    font-size: clamp(1.5rem, 5vw, 3rem); 
     font-weight: 400;
 
 }
@@ -272,14 +275,14 @@ main>section {
         margin-top: 20px;
     
     }
-    .footer{
+    /* .footer{
         margin: 10px;
-        width: 100%;
+        width: 100vw;
     }
     .footer_peragarph{
        text-align: right;
        padding: 10px;
-    }
+    } */
 }
 
 /* medium size device */
